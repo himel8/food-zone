@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  height: 100vh;
+  padding-bottom: 150px;
+}
+.header-section {
+  background-color: #e5e5e5;
+  padding-top: 2%;
+}
+.half-box {
+  width: 43%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-box img {
+  width: 80%;
+  position: left;
+}
+h1 {
+  font-size: 55px;
+  line-height: 1.2em;
+  padding-top: 15%;
+  font-weight: 700;
+  color: #575757;
+}
+p {
+  font-size: 20px;
+  color: #828282;
+  line-height: 1.2em;
+  margin-bottom: 60px;
+}
+.btn-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  background-image: linear-gradient(900deg, tomato, orange);
+  padding: 18px 45px;
+  border-radius: 50px;
+}
+.orange {
+  color: orange;
+}
