@@ -4,8 +4,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 section {
-  height: 100vh;
   padding-bottom: 100px;
+  height: 600px;
 }
 .header-section {
   background-color: #e5e5e5;
@@ -56,8 +56,55 @@ p {
 .about-section img {
   width: 66%;
 }
+.about-section p {
+  color: #252525;
+}
 h2 {
   font-size: 40px;
   color: #707070;
   margin-top: 15%;
+}
+.recipies-section {
+  margin-bottom: 80px;
+}
+.recipies-section img {
+  width: 100%;
+}
+.recipies-heading {
+  padding: 2% 21%;
+}
+.recipies-heading h2 {
+  text-align: center;
+  margin-top: 0;
+}
+.recipies-heading p {
+  text-align: center;
+  padding-right: 0;
+  color: #252525;
+  margin-bottom: 15px;
+}
+.recipies-box {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  text-align: center;
+}
+.recipies-box p {
+  color: #18191f;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.box-shape {
+  padding: 20px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.459);
+  border-radius: 30px;
+}
+h3 {
+  font-size: 28px;
+  color: #18191f;
+  font-weight: 700;
+  text-align: left;
 }
