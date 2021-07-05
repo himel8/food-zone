@@ -5,7 +5,7 @@ body {
 }
 section {
   height: 100vh;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .header-section {
   background-color: #e5e5e5;
@@ -17,8 +17,8 @@ section {
   margin-left: 5%;
   padding-left: 2%;
 }
-.half-box img {
-  width: 80%;
+.header-section img {
+  width: 100%;
   position: left;
 }
 h1 {
@@ -32,7 +32,9 @@ p {
   font-size: 20px;
   color: #828282;
   line-height: 1.2em;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  padding-right: 12%;
+  text-align: justify;
 }
 .btn-link {
   text-decoration: none;
@@ -44,4 +46,18 @@ p {
 }
 .orange {
   color: orange;
+}
+.about-section {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 4% 5% 0%;
+}
+.about-section img {
+  width: 66%;
+}
+h2 {
+  font-size: 40px;
+  color: #707070;
+  margin-top: 15%;
 }
