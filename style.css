@@ -4,9 +4,69 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 section {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   height: 600px;
 }
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+h2 {
+  font-size: 40px;
+  color: #707070;
+}
+h3 {
+  font-size: 28px;
+  color: #18191f;
+  font-weight: 700;
+  text-align: left;
+}
+p {
+  font-size: 20px;
+  color: #828282;
+  line-height: 1.5em;
+  margin-bottom: 80px;
+  text-align: left;
+}
+.btn-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  background-image: linear-gradient(900deg, tomato, orange);
+  padding: 18px 45px;
+  border-radius: 50px;
+}
+.orange {
+  color: orange;
+}
+.box-model {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  text-align: center;
+}
+/*-----main section------*/
+.main-section {
+  background-image: url(images/food/burger.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgba(255, 255, 0, 0.2);
+  padding-left: 5%;
+}
+.main-section h1 {
+  margin-top: 0;
+  padding-top: 150px;
+  font-size: 40px;
+}
+.main-section p {
+  color: #000;
+  padding-right: 50%;
+}
+.main-section a {
+  margin-right: 30px;
+}
+/*-----header section------*/
 .header-section {
   background-color: #e5e5e5;
   padding-top: 2%;
@@ -21,32 +81,11 @@ section {
   width: 100%;
   position: left;
 }
-h1 {
-  font-size: 55px;
-  line-height: 1.2em;
+.header-section h1 {
   padding-top: 15%;
-  font-weight: 700;
   color: #575757;
 }
-p {
-  font-size: 20px;
-  color: #828282;
-  line-height: 1.2em;
-  margin-bottom: 80px;
-  padding-right: 12%;
-  text-align: justify;
-}
-.btn-link {
-  text-decoration: none;
-  font-size: 18px;
-  color: #fff;
-  background-image: linear-gradient(900deg, tomato, orange);
-  padding: 18px 45px;
-  border-radius: 50px;
-}
-.orange {
-  color: orange;
-}
+/*-----about section------*/
 .about-section {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
@@ -59,11 +98,7 @@ p {
 .about-section p {
   color: #252525;
 }
-h2 {
-  font-size: 40px;
-  color: #707070;
-  margin-top: 15%;
-}
+/*-----recipies section------*/
 .recipies-section {
   margin-bottom: 80px;
 }
@@ -83,28 +118,56 @@ h2 {
   color: #252525;
   margin-bottom: 15px;
 }
-.recipies-box {
-  width: 25%;
-  float: left;
-  margin-left: 5%;
-  text-align: center;
-}
+
 .recipies-box p {
   color: #18191f;
   font-size: 18px;
-  text-align: left;
   line-height: 1.5em;
   letter-spacing: 1px;
   margin-bottom: 0;
 }
 .box-shape {
-  padding: 20px;
-  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.459);
+  padding: 20px 20px 0;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
 }
-h3 {
-  font-size: 28px;
-  color: #18191f;
-  font-weight: 700;
-  text-align: left;
+/*-----impression section------*/
+.impression-section {
+  margin: 300px 80px 100px;
+  height: 200px;
+  border-radius: 30px;
+}
+.impression-section p {
+  text-align: center;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 0;
+}
+.impression-section h1 {
+  color: #000;
+}
+.shape-1 {
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.3);
+}
+.imp-br {
+  border-left: 1px solid #707070;
+}
+/*-----footer section------*/
+footer {
+  background-color: #0b0d17;
+  height: 250px;
+}
+footer h2 {
+  color: #636060;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 35px;
+}
+footer p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  padding-right: 0;
 }
