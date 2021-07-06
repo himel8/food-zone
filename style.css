@@ -148,7 +148,7 @@ p {
 .impression-section h1 {
   color: #000;
 }
-.impression-section .box-model{
+.impression-section .box-model {
   padding: 0 40px;
   margin-left: 0;
 }
@@ -163,7 +163,6 @@ p {
   border-image: linear-gradient(180deg, lightsalmon, tomato);
   border-image-slice: 1;
   height: 100%;
-  marg
 }
 /*-----footer section------*/
 footer {
